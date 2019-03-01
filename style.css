@@ -3,12 +3,12 @@ body{
   font-family: Arial, sans-serif;
 }
 
-span{
+#compteur{
   position: absolute;
   margin: 10% 10%;
 }
 
-div{
+.case{
   position: absolute;
   width: 30%;
   height: 40%;
@@ -16,6 +16,6 @@ div{
   border: 3px solid black;
 }
 
-div:hover{
+.case:hover{
   cursor : pointer
 }
