@@ -5,6 +5,7 @@
   position : absolute;
   top : 5%;
   left : 95%;
+  cursor: pointer;
 }
 
 #inventaire img {
@@ -19,6 +20,7 @@
   position : absolute;
   top : 15%;
   left : 95%;
+  cursor : pointer;
 }
 
 #shop img {
