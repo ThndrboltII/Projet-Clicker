@@ -7,9 +7,12 @@
 
 #workSpace{
   position: absolute;
-  padding: 0;
-  height: 770px;
-  width: 1585px;
+  width: 99%;
+  min-width: 1235px;
+  max-width: 1585px;
+  height:98%;
+  min-height: 600px;
+  max-height: 770px;
 }
 
 map{
