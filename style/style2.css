@@ -1,0 +1,29 @@
+#inventaire{
+  height : 50px;
+  width : 50px;
+  border : 2px solid red;
+  position : absolute;
+  top : 5%;
+  left : 95%;
+}
+
+
+#inventaire img {
+  height : 50px;
+  width : 50px;
+}
+
+#shop{
+  height : 50px;
+  width : 50px;
+  border : 2px solid red;
+  position : absolute;
+  top : 15%;
+  left : 95%;
+}
+
+
+#qhop img {
+  height : 50px;
+  width : 50px;
+}
