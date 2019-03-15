@@ -34,3 +34,10 @@ Uranium 1000$
 Palladium 700$
 Rubis
 Saphir
+
+
+
+
+minerai aléatoire:
+  proba cumulés
+  Math.random => if(x>=n && x<=n+1){compte = compte + item[n].value}
