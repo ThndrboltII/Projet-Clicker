@@ -27,3 +27,35 @@
   height : 50px;
   width : 50px;
 }
+
+#back{
+  height : 50px;
+  width : 50px;
+  border : 2px solid red;
+  position : absolute;
+  top : 25%;
+  left : 95%;
+  cursor: pointer;
+  visibility: hidden;
+}
+
+#back img {
+  height : 50px;
+  width : 50px;
+}
+
+#ouvrshop {
+  position :absolute;
+  height : 95%;
+  width :90%;
+  background-color: black;
+  visibility: hidden;
+}
+
+#ouvrinventaire {
+  position :absolute;
+  height : 95%;
+  width :90%;
+  background-color: red;
+  visibility: hidden;
+}
