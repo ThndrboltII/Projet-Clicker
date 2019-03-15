@@ -4,4 +4,6 @@ $(document).ready(function(){
     compte = compte + 1;
     $('#compteur').text('Compteur: ' + compte);
   });
+
+  var item = [];
 });

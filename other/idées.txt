@@ -3,12 +3,3 @@ https://www.textures.com/
 https://openclassrooms.com/forum/sujet/comment-creer-des-images-pour-un-jeu-video-2d
 
 https://www.image-map.net/
-<<<<<<< HEAD
-
-$("#ouvrshop").css("visibility","hidden");
-
-$("#shop").on("click", function(){
-  $("#ouvrshop").css("visibility","visible");
-})
-=======
->>>>>>> 5b8bbc044a941bdb465b81f4cf24ba86af80f4c2
