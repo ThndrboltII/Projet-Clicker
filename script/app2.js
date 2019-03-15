@@ -1,11 +1,23 @@
 $(document).ready(function() {
 	$("#inventaire").on("click",item);
   $("#shop").on("click",magasin);
+	$("#back").on("click",retour)
+
 		function item(){
-			window.alert("T'as rien t'es pauvre.");
+			$("#ouvrinventaire").css("visibility","visible");
+			$("#ouvrshop").css("visibility", "hidden");
+			$("#back").css("visibility", "visible");
 		}
 
   	function magasin(){
-  		window.alert("T'as pas de fric dégage");
-  		}
+			$("#ouvrshop").css("visibility","visible");
+			$("#ouvrinventaire").css("visibility", "hidden");
+			$("#back").css("visibility", "visible");
+			}
+
+		function retour(){
+			$("#ouvrinventaire").css("visibility", "hidden");
+			$("#ouvrshop").css("visibility", "hidden");
+			$("#back").css("visibility", "hidden");
+		}
 });
