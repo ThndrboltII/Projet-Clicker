@@ -13,7 +13,7 @@ $(document).ready(function() {
 			$("#ouvrshop").css("visibility","visible");
 			$("#ouvrinventaire").css("visibility", "hidden");
 			$("#back").css("visibility", "visible");
-			}
+		}
 
 		function retour(){
 			$("#ouvrinventaire").css("visibility", "hidden");
