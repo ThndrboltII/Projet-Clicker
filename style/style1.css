@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Germania+One');
 *{
   padding: 0;
   margin: 2px;
   /* overflow: hidden; */
-  font-family: Arial, sans-serif;
+  font-family: Germania One, sans-serif;
 }
 
 #workSpace{
