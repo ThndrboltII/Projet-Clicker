@@ -8,11 +8,12 @@ var sapphire=2;
 var emerald=1;
 var diamond=1;
 var palladium=1;
-var uranium=100;
+var uranium=10000;
 var argent=0;
 var mineur=1;
 var bombe=0;
-
+var bateau=0;
+var combi=0;
 
 	$("#inventaire").on("click",item);
   $("#shop").on("click",magasin);
@@ -30,6 +31,8 @@ var bombe=0;
 			$("#Vendre").on("click", conversion);
 			$("#achatemploye").on("click", engager);
 			$("#achatbombe").on("click", bomber);
+			$("#achatbateau").on("click", naviguer);
+			$("#achatcombi").on("click", combinaisonner);
 			$("#back").css("visibility", "visible");
 
 				function conversion(){
@@ -65,6 +68,32 @@ var bombe=0;
 					}
 					else {
 						window.alert("Vous avez déjà acheter la bombe")
+					}
+				}
+
+				function naviguer() {
+					if (bateau==0){
+						if (argent>=5000){
+						argent=argent-5000;
+						bateau=bateau+1;
+					}
+						else {}
+					}
+					else {
+						window.alert("Vous avez déjà acheter le bateau")
+					}
+				}
+
+				function combinaisonner() {
+					if (combi==0){
+						if (argent>=200000){
+						argent=argent-200000;
+						combi=combi+1;
+					}
+						else {}
+					}
+					else {
+						window.alert("Vous avez déjà acheter la combinaison NBC")
 					}
 				}
 		}
