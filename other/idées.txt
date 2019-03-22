@@ -8,20 +8,14 @@ https://www.image-map.net/
 Magasin :
 Une partie achat, une partie pour vendre les ressources.
 Achat :
-Une combinaison pour se protéger de radioactivité 100000$
 Bombe 2000$
+Bateau 5000$
+Une combinaison pour se protéger de radioactivité 100000$
 
 
 
-
-
-Item à acheter pour gagner : "Le droit de propriété d'un manoir" 1000000000$
-Différent niveau de pioche:
-
-
-
-
-
+Item à acheter pour gagner : "Le droit de propriété d'un manoir" 10000000$
+Pourvoir acheter des gens 4 max ---> ils permettent d'augmenter le nombre de ressources en un click 2500$
 
 
 Ressource à vendre :
