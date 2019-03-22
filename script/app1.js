@@ -1,5 +1,6 @@
 $(document).ready(function(){
   $('map').on("click",function(){
+    
     alea();
 
     function alea(){
@@ -14,7 +15,7 @@ $(document).ready(function(){
       var alea = Math.random().toFixed(3);
 
       if(alea>=0 && alea<=0.6){
-        
+
       };
       if(alea>=0.6 && alea<=0.85){ compte = compte + parseInt(item[2].value)};
       if(alea>=0.85 && alea<=0.95){ compte = compte + parseInt(item[3].value)};
