@@ -24,7 +24,7 @@ map{
   cursor: pointer;
 }
 
-#compteur{
+.mineral{
   position: absolute;
   color: red;
 }
