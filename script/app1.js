@@ -6,14 +6,14 @@ $(document).ready(function(){
     alea();
 
     function alea(){
-      var rockAlea = Math.random();
-        if(rockAlea <= item[0].rare){
-          compte = compte + parseInt(item[0].value);
-        };
-      var goldAlea = Math.random();
-        if(goldAlea <= item[1].rare){
-          compte = compte + parseInt(item[1].value);
-        };
+      // var rockAlea = Math.random();
+      //   if(rockAlea <= item[0].rare){
+      //     compte = compte + parseInt(item[0].value);
+      //   };
+      // var goldAlea = Math.random();
+      //   if(goldAlea <= item[1].rare){
+      //     compte = compte + parseInt(item[1].value);
+      //   };
     };
   });
 
