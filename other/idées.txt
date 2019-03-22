@@ -9,7 +9,7 @@ Magasin :
 Une partie achat, une partie pour vendre les ressources.
 Achat :
 Une combinaison pour se protéger de radioactivité 100000$
-
+Bombe 2000$
 
 
 
@@ -26,15 +26,15 @@ Différent niveau de pioche:
 
 Ressource à vendre :
 Pierre 1$
-Or  10$
+Or  30$
 Diamant 500$
 Emeraude 200$
-Lapis-Lazuli 30$
+Lapis-Lazuli 10$
 Uranium 1000$
 Palladium 700$
-Rubis
-Saphir
-
+Rubis 100$
+Saphir 100$
+Charbon 5$
 
 
 
