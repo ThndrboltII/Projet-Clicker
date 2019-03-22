@@ -1,5 +1,4 @@
 $(document).ready(function(){
-  var compte = 0;
   $('map').on("click",function(){
     alea();
 
@@ -15,8 +14,7 @@ $(document).ready(function(){
       var alea = Math.random().toFixed(3);
 
       if(alea>=0 && alea<=0.6){
-        compte = compte + parseInt(item[0].value);
-        console.log(compte);
+        
       };
       if(alea>=0.6 && alea<=0.85){ compte = compte + parseInt(item[2].value)};
       if(alea>=0.85 && alea<=0.95){ compte = compte + parseInt(item[3].value)};
@@ -26,14 +24,14 @@ $(document).ready(function(){
     };
   });
 
-  var item = [{item:"ROCK", value:"1", rare:"0.6"},
-  {item:"COAL", value:"5", rare:"0.25"},
-  {item:"GOLD", value:"30", rare:"0.1"},
-  {item:"DIAMOND", value:"500", rare:"0.01"},
-  {item:"PALLADIUM", value:"700", rare:"0.06"},
-  {item:"URANIUM", value:"1000", rare:"0"},
-  {item:"EMERALD", value:"200", rare:"0"},
-  {item:"RUBY", value:"200", rare:"0"},
-  {item:"SAPPHIRE", value:"200", rare:"0"},
-  {item:"LAPIS-LAZULI", value:"10", rare:"0.034"}];
+  var item = [{item:"ROCK", value:"1", rare:"0.6", counter:"0"},
+  {item:"COAL", value:"5", rare:"0.25", counter:"0"},
+  {item:"GOLD", value:"30", rare:"0.1", counter:"0"},
+  {item:"DIAMOND", value:"500", rare:"0.01", counter:"0"},
+  {item:"PALLADIUM", value:"700", rare:"0.06", counter:"0"},
+  {item:"URANIUM", value:"1000", rare:"0", counter:"0"},
+  {item:"EMERALD", value:"200", rare:"0", counter:"0"},
+  {item:"RUBY", value:"200", rare:"0", counter:"0"},
+  {item:"SAPPHIRE", value:"200", rare:"0", counter:"0"},
+  {item:"LAPIS-LAZULI", value:"10", rare:"0.034", counter:"0"}];
 });
