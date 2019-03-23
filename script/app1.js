@@ -1,27 +1,49 @@
 $(document).ready(function(){
+  $('img[usemap]').rwdImageMaps();
+  
   $('map').on("click",function(){
-    
+
     alea();
 
     function alea(){
-      // var rockAlea = Math.random();
-      //   if(rockAlea <= item[0].rare){
-      //     compte = compte + parseInt(item[0].value);
-      //   };
-      // var goldAlea = Math.random();
-      //   if(goldAlea <= item[1].rare){
-      //     compte = compte + parseInt(item[1].value);
-      //   };
+
       var alea = Math.random().toFixed(3);
 
+      // Set rock counter
       if(alea>=0 && alea<=0.6){
-
+        item[0].counter = parseInt(item[0].counter) + 1;
+        $("#rock").text("Rock: " + item[0].counter);
       };
-      if(alea>=0.6 && alea<=0.85){ compte = compte + parseInt(item[2].value)};
-      if(alea>=0.85 && alea<=0.95){ compte = compte + parseInt(item[3].value)};
-      if(alea>=0.95 && alea<=0.96){ compte = compte + parseInt(item[4].value)};
-      if(alea>=0.96 && alea<=0.966){ compte = compte + parseInt(item[5].value)};
-      if(alea>=966 && alea<=1){ compte = compte + parseInt(item[0].value)};
+
+      // Set coal counter
+      if(alea>=0.6 && alea<=0.85){
+        item[1].counter = parseInt(item[1].counter) + 1;
+        $("#coal").text("Coal: " + item[1].counter);
+      };
+
+      // Set gold counter
+      if(alea>=0.85 && alea<=0.95){
+        item[2].counter = parseInt(item[2].counter) + 1;
+        $("#gold").text("Gold: " + item[2].counter);
+      };
+
+      // Set diamond counter
+      if(alea>=0.95 && alea<=0.96){
+        item[3].counter = parseInt(item[3].counter) + 1;
+        $("#diamond").text("Diamond: " + item[3].counter);
+      };
+
+      // Set palladium counter
+      if(alea>=0.96 && alea<=0.966){
+        item[4].counter = parseInt(item[4].counter) + 1;
+        $("#palladium").text("Palladium: " + item[4].counter);
+      };
+
+      // Set lapis-lazuli counter
+      if(alea>=0.966 && alea<=1){
+        item[9].counter = parseInt(item[9].counter) + 1;
+        $("#lapis").text("Lapis-Lazuli: " + item[9].counter);
+      };
     };
   });
 

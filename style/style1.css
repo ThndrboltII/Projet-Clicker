@@ -2,7 +2,7 @@
 *{
   padding: 0;
   margin: 2px;
-  /* overflow: hidden; */
+  overflow: hidden;
   font-family: Germania One, sans-serif;
 }
 
@@ -17,14 +17,25 @@
 }
 
 #workSpace img{
-  /* width: 100%; height: 100%; */
+  height: 90%; width: 100%;
 }
 
 map{
   cursor: pointer;
 }
 
+#workSpace[usemap] {
+  height: auto;
+  max-width: 100%;
+  width: auto;
+}
+
 .mineral{
   position: absolute;
   color: red;
+  width: 10%;
 }
+
+/* #minerals {
+  position: absolute;
+} */
