@@ -2,7 +2,7 @@
 *{
   padding: 0;
   margin: 2px;
-  /* overflow: hidden; */
+  overflow: hidden;
   font-family: Germania One, sans-serif;
 }
 
@@ -17,7 +17,7 @@
 }
 
 #workSpace img{
-  height: 90%; width: 100%;
+  height: 100%; width: 100%;
 }
 
 map{
@@ -31,6 +31,7 @@ map{
 }
 
 .mineral{
+  position: absolute;
   display: inline-block;
   color: red;
   margin: 1%;
@@ -38,5 +39,5 @@ map{
 }
 
 #minerals {
-  position: absolute;
+
 }
