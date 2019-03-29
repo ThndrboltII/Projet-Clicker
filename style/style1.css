@@ -30,6 +30,22 @@ map{
   width: auto;
 }
 
+.arrows {
+  font-size: 6em;
+  position: absolute;
+  cursor: pointer;
+}
+
+#left_arrow {
+  left: 0%;
+  top: 45%;
+}
+
+#right_arrow {
+  left: 96%;
+  top: 45%;
+}
+
 .mineral{
   position: absolute;
   display: inline-block;

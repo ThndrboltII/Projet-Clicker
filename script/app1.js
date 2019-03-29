@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $('img[usemap]').rwdImageMaps();
-
+  $('img').attr('src');
   $('map').on("click",function(){
 
     alea();
@@ -57,4 +57,6 @@ $(document).ready(function(){
   {item:"RUBY", value:"200", rare:"0", counter:"0"},
   {item:"SAPPHIRE", value:"200", rare:"0", counter:"0"},
   {item:"LAPIS-LAZULI", value:"10", rare:"0.05", counter:"0"}];
+
+  $('left_arrow').on("click", function(){$('img').attr('src')="../background/PNG/game_background_1/game_background_1.png";})
 });
