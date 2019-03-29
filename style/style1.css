@@ -38,6 +38,42 @@ map{
   width: 10%;
 }
 
-#minerals {
+#rock {
+  left: 0%; top: 0%;
+}
 
+#coal {
+  left: 10%; top: 0%;
+}
+
+#gold {
+  left: 20%; top: 0%;
+}
+
+#diamond {
+  left: 30%; top: 0%;
+}
+
+#palladium {
+  left: 40%; top: 0%;
+}
+
+#uranium {
+  left: 50%; top: 0%;
+}
+
+#emerald {
+  left: 60%; top: 0%;
+}
+
+#ruby {
+  left: 70%; top: 0%;
+}
+
+#sapphire {
+  left: 80%; top: 0%;
+}
+
+#lapis {
+  left: 90%; top: 0%;
 }
