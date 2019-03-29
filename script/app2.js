@@ -13,7 +13,9 @@ var argent=0;
 var mineur=1;
 var bombe=0;
 var bateau=0;
+var scaphandre=0;
 var combi=0;
+
 
 	$("#inventaire").on("click",item);
   $("#shop").on("click",magasin);
@@ -32,6 +34,7 @@ var combi=0;
 			$("#achatemploye").on("click", engager);
 			$("#achatbombe").on("click", bomber);
 			$("#achatbateau").on("click", naviguer);
+			$("#achatscaphandre").on("click", scaphandrer);
 			$("#achatcombi").on("click", combinaisonner);
 			$("#back").css("visibility", "visible");
 
@@ -81,6 +84,18 @@ var combi=0;
 					}
 					else {
 						window.alert("Vous avez déjà acheter le bateau")
+					}
+				}
+				function scaphandrer() {
+					if (scaphandre==0){
+						if (argent>=20000){
+						argent=argent-20000;
+						scaphandre=scaphandre+1;
+					}
+						else {}
+					}
+					else {
+						window.alert("Vous avez déjà acheter le scaphandre")
 					}
 				}
 
