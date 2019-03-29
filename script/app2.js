@@ -72,6 +72,7 @@ var combi=0;
 						if (argent>=2000){
 						argent=argent-2000;
 						bombe=bombe+1;
+						$("#inventbombe img").css("visibility", "visible");
 					}
 						else {}
 					}
@@ -85,6 +86,7 @@ var combi=0;
 						if (argent>=5000){
 						argent=argent-5000;
 						bateau=bateau+1;
+						$("#inventbateau img").css("visibility", "visible");
 					}
 						else {}
 					}
@@ -97,6 +99,7 @@ var combi=0;
 						if (argent>=20000){
 						argent=argent-20000;
 						scaphandre=scaphandre+1;
+						$("#inventscaphandre img").css("visibility", "visible");
 					}
 						else {}
 					}
@@ -110,6 +113,7 @@ var combi=0;
 						if (argent>=200000){
 						argent=argent-200000;
 						combi=combi+1;
+						$("#inventcombi img").css("visibility", "visible");
 					}
 						else {}
 					}
