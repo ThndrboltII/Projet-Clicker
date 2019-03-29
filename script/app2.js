@@ -8,7 +8,7 @@ var sapphire=2;
 var emerald=1;
 var diamond=1;
 var palladium=1;
-var uranium=10000;
+var uranium=10000000000;
 var argent=0;
 var mineur=1;
 var bombe=0;
@@ -27,7 +27,7 @@ var combi=0;
 	$("#achatbateau").on("click", naviguer);
 	$("#achatscaphandre").on("click", scaphandrer);
 	$("#achatcombi").on("click", combinaisonner);
-
+	$("#achatfinal").on("click", fin);
 
 
 
@@ -45,16 +45,16 @@ var combi=0;
 
 				function conversion(){
 					argent=argent+rock+(5*coal)+(10*lapis)+(30*gold)+(100*ruby)+(100*sapphire)+(200*emerald)+(500*diamond)+(700*palladium)+(1000*uranium);
-					rock=rock-rock;
-					coal=coal-coal;
-					lapis=lapis-lapis;
-					gold=gold-gold;
-					ruby=ruby-ruby;
-					sapphire=sapphire-sapphire;
-					emerald=emerald-emerald;
-					diamond=diamond-diamond;
-					palladium=palladium-palladium;
-					uranium=uranium-uranium;
+					rock=0;
+					coal=0;
+					lapis=0;
+					gold=0;
+					ruby=0;
+					sapphire=0;
+					emerald=0;
+					diamond=0;
+					palladium=0;
+					uranium=0;
 				}
 
 				function engager(){
@@ -76,7 +76,7 @@ var combi=0;
 						else {}
 					}
 					else {
-						window.alert("Vous avez déjà acheter la bombe")
+						window.alert("Vous avez déjà acheter la bombe");
 					}
 				}
 
@@ -89,7 +89,7 @@ var combi=0;
 						else {}
 					}
 					else {
-						window.alert("Vous avez déjà acheter le bateau")
+						window.alert("Vous avez déjà acheter le bateau");
 					}
 				}
 				function scaphandrer() {
@@ -101,7 +101,7 @@ var combi=0;
 						else {}
 					}
 					else {
-						window.alert("Vous avez déjà acheter le scaphandre")
+						window.alert("Vous avez déjà acheter le scaphandre");
 					}
 				}
 
@@ -114,8 +114,15 @@ var combi=0;
 						else {}
 					}
 					else {
-						window.alert("Vous avez déjà acheter la combinaison NBC")
+						window.alert("Vous avez déjà acheter la combinaison NBC");
 					}
+				}
+
+				function fin() {
+					if (argent>=20000000){
+						window.alert("Vous avez gagné");
+					}
+					else {}
 				}
 
 
