@@ -17,9 +17,19 @@ var scaphandre=0;
 var combi=0;
 
 
+//abonnements
 	$("#inventaire").on("click",item);
   $("#shop").on("click",magasin);
 	$("#back").on("click",retour);
+	$("#Vendre").on("click", conversion);
+	$("#achatemploye").on("click", engager);
+	$("#achatbombe").on("click", bomber);
+	$("#achatbateau").on("click", naviguer);
+	$("#achatscaphandre").on("click", scaphandrer);
+	$("#achatcombi").on("click", combinaisonner);
+
+
+
 
 		function item(){
 			$("#ouvrinventaire").css("visibility","visible");
@@ -30,13 +40,8 @@ var combi=0;
   	function magasin(){
 			$("#ouvrshop").css("visibility","visible");
 			$("#ouvrinventaire").css("visibility", "hidden");
-			$("#Vendre").on("click", conversion);
-			$("#achatemploye").on("click", engager);
-			$("#achatbombe").on("click", bomber);
-			$("#achatbateau").on("click", naviguer);
-			$("#achatscaphandre").on("click", scaphandrer);
-			$("#achatcombi").on("click", combinaisonner);
 			$("#back").css("visibility", "visible");
+			}
 
 				function conversion(){
 					argent=argent+rock+(5*coal)+(10*lapis)+(30*gold)+(100*ruby)+(100*sapphire)+(200*emerald)+(500*diamond)+(700*palladium)+(1000*uranium);
@@ -56,6 +61,7 @@ var combi=0;
 					if (argent>=2500) {
 						argent=argent-2500;
 						mineur=mineur+1;
+						$("#nombrecrue").text(mineur);
 					}
 					else {
 					}
@@ -111,7 +117,7 @@ var combi=0;
 						window.alert("Vous avez déjà acheter la combinaison NBC")
 					}
 				}
-		}
+
 
 		function retour(){
 			$("#ouvrinventaire").css("visibility", "hidden");

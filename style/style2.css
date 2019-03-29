@@ -70,3 +70,49 @@
   background-color: red;
   visibility: hidden;
 }
+
+#inventbombe {
+  border : 2px solid black;
+  position : absolute;
+  height : 200px;
+  width : 200px;
+  top: 5%;
+  left: 5%;
+}
+
+#inventbateau {
+  border : 2px solid black;
+  position : absolute;
+  height : 200px;
+  width : 200px;
+  top: 5%;
+  left: 75%;
+}
+
+#inventrecrue {
+  border : 2px solid black;
+  position : absolute;
+  height : 200px;
+  width : 200px;
+  top : 40%;
+  left: 40%;
+  text-align: center;
+}
+
+#inventscaphandre {
+  border : 2px solid black;
+  position : absolute;
+  height : 200px;
+  width : 200px;
+  top  : 70%;
+  left: 5%;
+}
+
+#inventcombi {
+  border : 2px solid black;
+  position : absolute;
+  height : 200px;
+  width : 200px;
+  top: 70%;
+  left: 75%;
+}
