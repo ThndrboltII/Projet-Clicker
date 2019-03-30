@@ -1,19 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Germania+One');
 *{
   padding: 0;
-  margin: 2px;
+  margin: 0;
   overflow: hidden;
   font-family: Germania One, sans-serif;
 }
 
 #workSpace{
   position: absolute;
-  width: 99%;
-  min-width: 1235px;
-  max-width: 1585px;
-  height: 98%;
+  width: 100%;
+  min-width: 1000px;
+  max-width: 2100px;
+  height: 100%;
   min-height: 600px;
-  max-height: 1075px;
+  max-height: 1200px;
 }
 
 #workSpace img{
@@ -38,12 +38,12 @@ map{
 
 #left_arrow {
   left: 0%;
-  top: 45%;
+  top: 40%;
 }
 
 #right_arrow {
   left: 96%;
-  top: 45%;
+  top: 40%;
 }
 
 .mineral{
@@ -52,6 +52,7 @@ map{
   color: red;
   margin: 1%;
   width: 10%;
+  font-size: 1em;
 }
 
 #rock {
