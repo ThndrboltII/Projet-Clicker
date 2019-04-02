@@ -4,6 +4,8 @@ https://openclassrooms.com/forum/sujet/comment-creer-des-images-pour-un-jeu-vide
 
 https://www.image-map.net/
 
+https://www.w3schools.com/jquery/html_attr.asp
+
 
 Magasin :
 Une partie achat, une partie pour vendre les ressources.
