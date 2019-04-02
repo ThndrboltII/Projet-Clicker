@@ -70,4 +70,5 @@ $(document).ready(function(){
     $('img').attr('src', '../background/PNG/game_background_2/game_background_2.png');
     $('area').attr('coords', coordsArea1);
   });
+  $('img[usemap]').rwdImageMaps();
 });
