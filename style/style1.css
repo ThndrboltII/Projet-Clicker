@@ -30,7 +30,7 @@ map{
 }
 
 area {
-  background-color: black;
+  border: 1px solid black;
 }
 
 #workSpace[usemap] {
@@ -101,5 +101,5 @@ area {
 }
 
 #lapis {
-  left: 0; top: 6%;
+  left: 0%; top: 6%;
 }
