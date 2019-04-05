@@ -60,16 +60,14 @@ $(document).ready(function(){
   {item:"LAPIS-LAZULI", value:"10", rare:"0.05", counter:"0"}];
 
   $('#left_arrow').on("click", function(){
-    $('img').attr('src', '../background/PNG/game_background_1/game_background_1.png');
-    $('area').attr({'coords':coordsArea2 , title:'Lake Mountain'});
-
+    $('img').attr({'src':'../background/PNG/game_background_1/game_background_1.png' , 'usemap':'#zone2'});
+    $('img[usemap="#zone2"]').rwdImageMaps();
     console.log($('area').attr('coords'));
   });
 
   $('#right_arrow').on("click", function(){
-    $('img').attr('src', '../background/PNG/game_background_2/game_background_2.png');
-    $('area').attr({'coords':coordsArea1 , title:'Mountain'});
-    $('img').maphilight();
+    $('img').attr({'src':'../background/PNG/game_background_2/game_background_2.png' , 'usemap':'#zone1'});
+    $('img[usemap="#zone1"]').rwdImageMaps();
 
     console.log($('area').attr('coords'));
   });
