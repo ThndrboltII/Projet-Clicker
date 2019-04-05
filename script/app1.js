@@ -62,11 +62,20 @@ $(document).ready(function(){
       case '../background/PNG/game_background_2/game_background_2.png':
         $('img').attr({'src':'../background/PNG/game_background_1/game_background_1.png' , 'usemap':'#zone2'});
         $('img[usemap="#zone2"]').rwdImageMaps();
+        $('#left_arrow').css('visibility', 'hidden');
+        $('#right_arrow').css('visibility', 'visible');
         break;
       case '../background/PNG/game_background_4/game_background_4.png':
-      $('img').attr({'src':'../background/PNG/game_background_2/game_background_2.png' , 'usemap':'#zone1'});
-      $('img[usemap="#zone1"]').rwdImageMaps();
+        $('img').attr({'src':'../background/PNG/game_background_2/game_background_2.png' , 'usemap':'#zone1'});
+        $('img[usemap="#zone1"]').rwdImageMaps();
+        $('#left_arrow').css('visibility', 'visible');
+        $('#right_arrow').css('visibility', 'visible');
         break;
+      case '../background/PNG/nuclear_plant.png':
+        $('img').attr({'src':'../background/PNG/game_background_4/game_background_4.png' , 'usemap':'#zone3'});
+        $('img[usemap="#zone3"]').rwdImageMaps();
+        $('#left_arrow').css('visibility', 'visible');
+        $('#right_arrow').css('visibility', 'visible');
     }
   });
 
@@ -75,11 +84,20 @@ $(document).ready(function(){
       case '../background/PNG/game_background_2/game_background_2.png':
         $('img').attr({'src':'../background/PNG/game_background_4/game_background_4.png' , 'usemap':'#zone3'});
         $('img[usemap="#zone3"]').rwdImageMaps();
+        $('#left_arrow').css('visibility', 'visible');
+        $('#right_arrow').css('visibility', 'visible');
         break;
       case '../background/PNG/game_background_1/game_background_1.png':
         $('img').attr({'src':'../background/PNG/game_background_2/game_background_2.png' , 'usemap':'#zone3'});
         $('img[usemap="#zone1"]').rwdImageMaps();
+        $('#left_arrow').css('visibility', 'visible');
+        $('#right_arrow').css('visibility', 'visible');
         break;
+      case '../background/PNG/game_background_4/game_background_4.png':
+        $('img').attr({'src':'../background/PNG/nuclear_plant.png' , 'usemap':'#zone5'});
+        $('img[usemap="#zone5"]').rwdImageMaps();
+        $('#left_arrow').css('visibility', 'visible');
+        $('#right_arrow').css('visibility', 'hidden');
     }
   });
 });
