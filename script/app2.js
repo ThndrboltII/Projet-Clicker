@@ -35,6 +35,13 @@ var combi=0;
 			$("#ouvrinventaire").css("visibility","visible");
 			$("#ouvrshop").css("visibility", "hidden");
 			$("#back").css("visibility", "visible");
+			$("#vente img").css("visibility", "hidden");
+			$("#ventbombe img").css("visibility", "hidden");
+			$("#ventbateau img").css("visibility", "hidden");
+			$("#ventrecrue img").css("visibility", "hidden");
+			$("#ventscaphandre img").css("visibility", "hidden");
+			$("#ventcombi img").css("visibility", "hidden");
+			$("#ventfinal img").css("visibility", "hidden");
 
 			//Voir si on possède la bombe
 			if (bombe==1) {
@@ -52,12 +59,13 @@ var combi=0;
 			if (scaphandre==1) {
 					$("#inventscaphandre img").css("visibility", "visible");
 			}
+			else {}
 
 			//Voir si on possède la combinaison NBC
-			if (combinaison==1) {
+			if (combi==1) {
 					$("#inventcombi img").css("visibility", "visible");
 			}
-
+			else {}
 		}
 
 		//Ouvrir le magasin et fermer l'inventaire
@@ -69,6 +77,13 @@ var combi=0;
 			$("#inventbateau img").css("visibility", "hidden");
 			$("#inventscaphandre img").css("visibility", "hidden");
 			$("#inventcombi img").css("visibility", "hidden");
+			$("#vente img").css("visibility", "visible");
+			$("#ventbombe img").css("visibility", "visible");
+			$("#ventbateau img").css("visibility", "visible");
+			$("#ventrecrue img").css("visibility", "visible");
+			$("#ventscaphandre img").css("visibility", "visible");
+			$("#ventcombi img").css("visibility", "visible");
+			$("#ventfinal img").css("visibility", "visible");
 			}
 
 				//Convertir les ressources en argent
@@ -170,5 +185,12 @@ var combi=0;
 			$("#inventbateau img").css("visibility", "hidden");
 			$("#inventscaphandre img").css("visibility", "hidden");
 			$("#inventcombi img").css("visibility", "hidden");
+			$("#vente img").css("visibility", "hidden");
+			$("#ventbombe img").css("visibility", "hidden");
+			$("#ventbateau img").css("visibility", "hidden");
+			$("#ventrecrue img").css("visibility", "hidden");
+			$("#ventscaphandre img").css("visibility", "hidden");
+			$("#ventcombi img").css("visibility", "hidden");
+			$("#ventfinal img").css("visibility", "hidden");
 		}
 });

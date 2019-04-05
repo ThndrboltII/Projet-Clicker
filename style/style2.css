@@ -106,7 +106,7 @@
   position : absolute;
   height : 200px;
   width : 200px;
-  top : 40%;
+  top : 38%;
   left: 40%;
   text-align: center;
 }
@@ -136,6 +136,118 @@
 }
 
 #inventcombi img{
+  visibility: hidden;
+  height : 200px;
+  width : 200px;
+}
+
+#vente {
+  border : 2px solid black;
+  position : absolute;
+  height : 200px;
+  width : 200px;
+  top: 5%;
+  left: 5%;
+}
+
+#ventbombe{
+  border : 2px solid black;
+  position : absolute;
+  height : 200px;
+  width : 200px;
+  top: 5%;
+  left:40%;
+}
+
+#ventbateau{
+  border : 2px solid black;
+  position : absolute;
+  height : 200px;
+  width : 200px;
+  top: 5%;
+  left: 75%;
+}
+
+#ventfinal{
+  border : 2px solid black;
+  position : absolute;
+  height : 200px;
+  width : 200px;
+  top: 38%;
+  left: 40%;
+}
+
+#ventscaphandre{
+  border : 2px solid black;
+  position : absolute;
+  height : 200px;
+  width : 200px;
+  top: 70%;
+  left: 5%;
+}
+
+#ventcombi{
+  border : 2px solid black;
+  position : absolute;
+  height : 200px;
+  width : 200px;
+  top: 70%;
+  left: 40%;
+}
+
+#ventrecrue{
+  border : 2px solid black;
+  position : absolute;
+  height : 200px;
+  width : 200px;
+  top: 70%;
+  left: 75%;
+}
+
+.deco{
+  position:absolute;
+  top:190px;
+  left: 70px;
+}
+
+
+#ventbombe img{
+  visibility: hidden;
+  height : 200px;
+  width : 200px;
+}
+
+#ventbateau img{
+  visibility: hidden;
+  height : 197px;
+  width : 200px;
+}
+
+#ventrecrue img{
+  visibility: hidden;
+  height : 200px;
+  width : 200px;
+}
+
+#ventscaphandre img{
+  visibility: hidden;
+  height : 200px;
+  width : 200px;
+}
+
+#vente img{
+  visibility: hidden;
+  height : 200px;
+  width : 200px;
+}
+
+#ventcombi img{
+  visibility: hidden;
+  height : 200px;
+  width : 200px;
+}
+
+#ventfinal img{
   visibility: hidden;
   height : 200px;
   width : 200px;
