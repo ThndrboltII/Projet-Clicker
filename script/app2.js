@@ -35,12 +35,35 @@ var combi=0;
 			$("#ouvrinventaire").css("visibility","visible");
 			$("#ouvrshop").css("visibility", "hidden");
 			$("#back").css("visibility", "visible");
+
+			if (bombe==1) {
+					$("#inventbombe img").css("visibility", "visible");
+			}
+			else {}
+
+			if (bateau==1) {
+					$("#inventbateau img").css("visibility", "visible");
+			}
+			else {}
+
+			if (scaphandre==1) {
+					$("#inventscaphandre img").css("visibility", "visible");
+			}
+
+			if (combinaison==1) {
+					$("#inventcombi img").css("visibility", "visible");
+			}
+
 		}
 
   	function magasin(){
 			$("#ouvrshop").css("visibility","visible");
 			$("#ouvrinventaire").css("visibility", "hidden");
 			$("#back").css("visibility", "visible");
+			$("#inventbombe img").css("visibility", "hidden");
+			$("#inventbateau img").css("visibility", "hidden");
+			$("#inventscaphandre img").css("visibility", "hidden");
+			$("#inventcombi img").css("visibility", "hidden");
 			}
 
 				function conversion(){
@@ -72,7 +95,6 @@ var combi=0;
 						if (argent>=2000){
 						argent=argent-2000;
 						bombe=bombe+1;
-						$("#inventbombe img").css("visibility", "visible");
 					}
 						else {}
 					}
@@ -86,7 +108,6 @@ var combi=0;
 						if (argent>=5000){
 						argent=argent-5000;
 						bateau=bateau+1;
-						$("#inventbateau img").css("visibility", "visible");
 					}
 						else {}
 					}
@@ -99,7 +120,6 @@ var combi=0;
 						if (argent>=20000){
 						argent=argent-20000;
 						scaphandre=scaphandre+1;
-						$("#inventscaphandre img").css("visibility", "visible");
 					}
 						else {}
 					}
@@ -113,7 +133,6 @@ var combi=0;
 						if (argent>=200000){
 						argent=argent-200000;
 						combi=combi+1;
-						$("#inventcombi img").css("visibility", "visible");
 					}
 						else {}
 					}
@@ -134,5 +153,9 @@ var combi=0;
 			$("#ouvrinventaire").css("visibility", "hidden");
 			$("#ouvrshop").css("visibility", "hidden");
 			$("#back").css("visibility", "hidden");
+			$("#inventbombe img").css("visibility", "hidden");
+			$("#inventbateau img").css("visibility", "hidden");
+			$("#inventscaphandre img").css("visibility", "hidden");
+			$("#inventcombi img").css("visibility", "hidden");
 		}
 });

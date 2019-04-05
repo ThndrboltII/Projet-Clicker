@@ -82,7 +82,9 @@
 
 #inventbombe img{
   visibility: hidden;
-}
+  height : 200px;
+  width : 200px;
+  }
 
 #inventbateau {
   border : 2px solid black;
@@ -95,6 +97,8 @@
 
 #inventbateau img{
   visibility: hidden;
+  height : 197px;
+  width : 200px;
 }
 
 #inventrecrue {
@@ -118,6 +122,8 @@
 
 #inventscaphandre img{
   visibility: hidden;
+  height : 200px;
+  width : 200px;
 }
 
 #inventcombi {
@@ -131,4 +137,6 @@
 
 #inventcombi img{
   visibility: hidden;
+  height : 200px;
+  width : 200px;
 }
