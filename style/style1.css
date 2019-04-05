@@ -29,10 +29,6 @@ map{
   cursor: pointer;
 }
 
-area {
-  border: 1px solid black;
-}
-
 #workSpace[usemap] {
   height: auto;
   max-width: 100%;
