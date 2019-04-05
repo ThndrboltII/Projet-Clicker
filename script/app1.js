@@ -60,15 +60,27 @@ $(document).ready(function(){
   {item:"LAPIS-LAZULI", value:"10", rare:"0.05", counter:"0"}];
 
   $('#left_arrow').on("click", function(){
-    $('img').attr({'src':'../background/PNG/game_background_1/game_background_1.png' , 'usemap':'#zone2'});
-    $('img[usemap="#zone2"]').rwdImageMaps();
-    console.log($('area').attr('coords'));
+    switch ($('img').attr('src')) {
+      case '../background/PNG/game_background_2/game_background_2.png':
+        $('img').attr({'src':'../background/PNG/game_background_1/game_background_1.png' , 'usemap':'#zone2'});
+        $('img[usemap="#zone2"]').rwdImageMaps();
+        break;
+      case '../background/PNG/game_background_4/game_background_4.png':
+      $('img').attr({'src':'../background/PNG/game_background_2/game_background_2.png' , 'usemap':'#zone1'});
+      $('img[usemap="#zone1"]').rwdImageMaps();
+        break;
+    }
   });
 
   $('#right_arrow').on("click", function(){
-    $('img').attr({'src':'../background/PNG/game_background_2/game_background_2.png' , 'usemap':'#zone1'});
-    $('img[usemap="#zone1"]').rwdImageMaps();
-
-    console.log($('area').attr('coords'));
+    switch ($('img').attr('src')) {
+      case '../background/PNG/game_background_2/game_background_2.png':
+        $('img').attr({'src':'../background/PNG/game_background_4/game_background_4.png' , 'usemap':'#zone3'});
+        $('img[usemap="#zone3"]').rwdImageMaps();
+        break;
+      case '../background/PNG/game_background_1/game_background_1.png':
+        $('img').attr({'src':'../background/PNG/game_background_2/game_background_2.png' , 'usemap':'#zone3'});
+        $('img[usemap="#zone1"]').rwdImageMaps();
+    }
   });
 });
