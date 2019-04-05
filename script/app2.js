@@ -30,32 +30,37 @@ var combi=0;
 	$("#achatfinal").on("click", fin);
 
 
-
+	//Ouvrir l'inventaire et fermer le magasin
 		function item(){
 			$("#ouvrinventaire").css("visibility","visible");
 			$("#ouvrshop").css("visibility", "hidden");
 			$("#back").css("visibility", "visible");
 
+			//Voir si on possède la bombe
 			if (bombe==1) {
 					$("#inventbombe img").css("visibility", "visible");
 			}
 			else {}
 
+			//Voir si on possède le bateau
 			if (bateau==1) {
 					$("#inventbateau img").css("visibility", "visible");
 			}
 			else {}
 
+			//Voir si on possède le scaphandre
 			if (scaphandre==1) {
 					$("#inventscaphandre img").css("visibility", "visible");
 			}
 
+			//Voir si on possède la combinaison NBC
 			if (combinaison==1) {
 					$("#inventcombi img").css("visibility", "visible");
 			}
 
 		}
 
+		//Ouvrir le magasin et fermer l'inventaire
   	function magasin(){
 			$("#ouvrshop").css("visibility","visible");
 			$("#ouvrinventaire").css("visibility", "hidden");
@@ -66,6 +71,7 @@ var combi=0;
 			$("#inventcombi img").css("visibility", "hidden");
 			}
 
+				//Convertir les ressources en argent
 				function conversion(){
 					argent=argent+rock+(5*coal)+(10*lapis)+(30*gold)+(100*ruby)+(100*sapphire)+(200*emerald)+(500*diamond)+(700*palladium)+(1000*uranium);
 					rock=0;
@@ -80,6 +86,7 @@ var combi=0;
 					uranium=0;
 				}
 
+				//Engager un nouveau mineur
 				function engager(){
 					if (argent>=2500) {
 						argent=argent-2500;
@@ -90,6 +97,7 @@ var combi=0;
 					}
 				}
 
+				//Acheter le bombe
 				function bomber(){
 					if (bombe==0){
 						if (argent>=2000){
@@ -103,6 +111,7 @@ var combi=0;
 					}
 				}
 
+				//Acheter le bateau
 				function naviguer() {
 					if (bateau==0){
 						if (argent>=5000){
@@ -115,6 +124,8 @@ var combi=0;
 						window.alert("Vous avez déjà acheter le bateau");
 					}
 				}
+
+				//Acheter le scaphandre
 				function scaphandrer() {
 					if (scaphandre==0){
 						if (argent>=20000){
@@ -128,6 +139,7 @@ var combi=0;
 					}
 				}
 
+				//Acheter le combinaison NBC
 				function combinaisonner() {
 					if (combi==0){
 						if (argent>=200000){
@@ -141,6 +153,7 @@ var combi=0;
 					}
 				}
 
+				//Acheter l'objet permettant de terminer le jeu
 				function fin() {
 					if (argent>=20000000){
 						window.alert("Vous avez gagné");
@@ -148,7 +161,7 @@ var combi=0;
 					else {}
 				}
 
-
+				//Permet de fermer le magasin et l'inventaire
 		function retour(){
 			$("#ouvrinventaire").css("visibility", "hidden");
 			$("#ouvrshop").css("visibility", "hidden");
