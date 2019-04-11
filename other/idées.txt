@@ -24,7 +24,7 @@ Ressource à vendre :
 Pierre 1$
 Or  30$
 Diamant 500$
-Emeraude 200$
+Emeraude 100$
 Lapis-Lazuli 10$
 Uranium 1000$
 Palladium 700$

@@ -88,7 +88,7 @@ var combi=0;
 
 				//Convertir les ressources en argent
 				function conversion(){
-					argent=argent+rock+(5*coal)+(10*lapis)+(30*gold)+(100*ruby)+(100*sapphire)+(200*emerald)+(500*diamond)+(700*palladium)+(1000*uranium);
+					argent=argent+rock+(5*coal)+(10*lapis)+(30*gold)+(100*ruby)+(100*sapphire)+(100*emerald)+(500*diamond)+(700*palladium)+(1000*uranium);
 					rock=0;
 					coal=0;
 					lapis=0;
