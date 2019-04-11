@@ -62,7 +62,7 @@ $(document).ready(function(){
       case '../background/PNG/game_background_2/game_background_2.png':
         $('img').attr({'src':'../background/PNG/game_background_1/game_background_1.png' , 'usemap':'#zone2'});
         $('img[usemap="#zone2"]').rwdImageMaps();
-        $('#left_arrow').css('visibility', 'hidden');
+        $('#left_arrow').css('visibility', 'visible');
         $('#right_arrow').css('visibility', 'visible');
         break;
       case '../background/PNG/game_background_4/game_background_4.png':
@@ -76,6 +76,12 @@ $(document).ready(function(){
         $('img[usemap="#zone3"]').rwdImageMaps();
         $('#left_arrow').css('visibility', 'visible');
         $('#right_arrow').css('visibility', 'visible');
+      case '../background/PNG/game_background_1/game_background_1.png':
+        $('img').attr({'src':'../background/PNG/mine.png' , 'usemap':'#zone4'});
+        $('img[usemap="#zone4"]').rwdImageMaps();
+        $('#left_arrow').css('visibility', 'hidden');
+        $('#right_arrow').css('visibility', 'visible');
+        break;
     }
   });
 
@@ -88,7 +94,7 @@ $(document).ready(function(){
         $('#right_arrow').css('visibility', 'visible');
         break;
       case '../background/PNG/game_background_1/game_background_1.png':
-        $('img').attr({'src':'../background/PNG/game_background_2/game_background_2.png' , 'usemap':'#zone3'});
+        $('img').attr({'src':'../background/PNG/game_background_2/game_background_2.png' , 'usemap':'#zone1'});
         $('img[usemap="#zone1"]').rwdImageMaps();
         $('#left_arrow').css('visibility', 'visible');
         $('#right_arrow').css('visibility', 'visible');
@@ -98,6 +104,13 @@ $(document).ready(function(){
         $('img[usemap="#zone5"]').rwdImageMaps();
         $('#left_arrow').css('visibility', 'visible');
         $('#right_arrow').css('visibility', 'hidden');
+        break;
+      case '../background/PNG/mine.png':
+        $('img').attr({'src':'../background/PNG/game_background_1/game_background_1.png' , 'usemap':'#zone2'});
+        $('img[usemap="#zone2"]').rwdImageMaps();
+        $('#left_arrow').css('visibility', 'visible');
+        $('#right_arrow').css('visibility', 'visible');
+        break;
     }
   });
 });
