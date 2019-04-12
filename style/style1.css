@@ -56,46 +56,109 @@ map{
   display: inline-block;
   color: red;
   margin: 1%;
+  /* padding: 2px; */
   width: 10%;
-  font-size: 140%;
+  height: auto;
+  font-size: 1em;
+  background-color: orange;
 }
 
 #rock {
   left: 0%; top: 0%;
+  display: flex;
+}
+
+#rock img{
+  width: 14%;
+  margin-right: 3%;
 }
 
 #coal {
   left: 11%; top: 0%;
+  display: flex;
+}
+
+#coal img{
+  width: 14%;
+  margin-right: 3%;
 }
 
 #gold {
   left: 22%; top: 0%;
+  display: flex;
+}
+
+#gold img{
+  width: 14%;
+  margin-right: 3%;
 }
 
 #diamond {
   left: 33%; top: 0%;
+  display: flex;
+}
+
+#diamond img{
+  width: 14%;
+  margin-right: 3%;
 }
 
 #palladium {
   left: 44%; top: 0%;
+  display: flex;
+}
+
+#palladium img{
+  width: 14%;
+  margin-right: 3%;
 }
 
 #uranium {
   left: 55%; top: 0%;
+  display: flex;
+}
+
+#uranium img{
+  width: 14%;
+  margin-right: 3%;
 }
 
 #emerald {
   left: 66%; top: 0%;
+  display: flex;
+}
+
+#emerald img{
+  width: 14%;
+  margin-right: 3%;
 }
 
 #ruby {
   left: 77%; top: 0%;
+  display: flex;
+}
+
+#ruby img{
+  width: 14%;
+  margin-right: 3%;
 }
 
 #sapphire {
   left: 88%; top: 0%;
+  display: flex;
+}
+
+#sapphire img{
+  width: 14%;
+  margin-right: 3%;
 }
 
 #lapis {
   left: 0%; top: 6%;
+  display: flex;
+}
+
+#lapis img{
+  width: 14%;
+  margin-right: 3%;
 }

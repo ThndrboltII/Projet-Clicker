@@ -276,6 +276,7 @@ $(document).ready(function(){
         $('img[usemap="#zone2"]').rwdImageMaps();
         $('#left_arrow').css('visibility', 'visible');
         $('#right_arrow').css('visibility', 'visible');
+        console.log('good');
         break;
       case '../background/PNG/mine.png':
         $('img').attr({'src':'../background/PNG/game_background_1/game_background_1.png' , 'usemap':'#zone3'});
