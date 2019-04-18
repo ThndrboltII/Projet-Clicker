@@ -1,17 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Germania+One');
-*{
-  padding: 0;
-  margin: 2px;
-  /* overflow: hidden; */
-  font-family: Germania One, sans-serif;
-}
 
 #inventaire{
   height : 50px;
   width : 50px;
   border : 2px solid red;
   position : absolute;
-  top : 5%;
+  top : 10%;
   left : 95%;
   cursor: pointer;
 }
@@ -27,7 +21,7 @@
   width : 50px;
   border : 2px solid red;
   position : absolute;
-  top : 15%;
+  top : 20%;
   left : 95%;
   cursor : pointer;
 }
@@ -43,7 +37,7 @@
   width : 50px;
   border : 2px solid red;
   position : absolute;
-  top : 25%;
+  top : 30%;
   left : 95%;
   cursor: pointer;
   visibility: hidden;
@@ -57,16 +51,24 @@
 
 #ouvrshop {
   position :absolute;
-  height : 95%;
-  width :90%;
+  height : 87%;
+  max-height: 1000px;
+  width :82%;
+  max-width: 1200px;
+  top: 8%;
+  left: 12%;
   background-color: yellow;
   visibility: hidden;
 }
 
 #ouvrinventaire {
   position :absolute;
-  height : 95%;
-  width :90%;
+  height : 87%;
+  max-height: 1000px;
+  width :82%;
+  max-width: 1200px;
+  top: 8%;
+  left: 12%;
   background-color: red;
   visibility: hidden;
 }
@@ -106,7 +108,7 @@
   position : absolute;
   height : 200px;
   width : 200px;
-  top : 38%;
+  top : 35%;
   left: 40%;
   text-align: center;
 }
@@ -116,7 +118,7 @@
   position : absolute;
   height : 200px;
   width : 200px;
-  top  : 70%;
+  top  : 65%;
   left: 5%;
 }
 
@@ -131,7 +133,7 @@
   position : absolute;
   height : 200px;
   width : 200px;
-  top: 70%;
+  top: 65%;
   left: 75%;
 }
 
