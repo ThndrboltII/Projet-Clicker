@@ -21,7 +21,7 @@
   max-height: 1200px;
 }
 
-#workSpace img{
+#background{
   height: 100%; width: 100%;
 }
 
@@ -37,8 +37,16 @@ map{
 
 .arrows {
   font-size: 6em;
+  height: auto;
   position: absolute;
   cursor: pointer;
+  transition: all 0.5s ease;
+  color: rgba(0,0,0,0);
+}
+
+.arrows:hover{
+  opacity: 1;
+  color: rgba(0,0,255,0.5);
 }
 
 #left_arrow {
@@ -56,11 +64,11 @@ map{
   display: inline-block;
   color: red;
   margin: 1%;
-  /* padding: 2px; */
-  width: 10%;
+  padding: 5px;
+  width: 9%;
   height: auto;
   font-size: 1em;
-  background-color: orange;
+  background-color: #ffc048;
 }
 
 #rock {
@@ -68,9 +76,11 @@ map{
   display: flex;
 }
 
-#rock img{
-  width: 14%;
-  margin-right: 3%;
+#rockimg{
+  height: 18px;
+  margin-right: 5%;
+  /* border: 1px solid black; */
+  background-color: #ffa801;
 }
 
 #coal {
@@ -78,9 +88,9 @@ map{
   display: flex;
 }
 
-#coal img{
-  width: 14%;
-  margin-right: 3%;
+#coalimg{
+  height: 18px;
+  margin-right: 5%;
 }
 
 #gold {
@@ -88,9 +98,9 @@ map{
   display: flex;
 }
 
-#gold img{
-  width: 14%;
-  margin-right: 3%;
+#goldimg{
+  height: 18px;
+  margin-right: 5%;
 }
 
 #diamond {
@@ -98,9 +108,9 @@ map{
   display: flex;
 }
 
-#diamond img{
-  width: 14%;
-  margin-right: 3%;
+#diamondimg{
+  height: 18px;
+  margin-right: 5%;
 }
 
 #palladium {
@@ -108,9 +118,9 @@ map{
   display: flex;
 }
 
-#palladium img{
-  width: 14%;
-  margin-right: 3%;
+#palladiumimg{
+  height: 18px;
+  margin-right: 5%;
 }
 
 #uranium {
@@ -118,9 +128,9 @@ map{
   display: flex;
 }
 
-#uranium img{
-  width: 14%;
-  margin-right: 3%;
+#uraniumimg{
+  height: 18px;
+  margin-right: 5%;
 }
 
 #emerald {
@@ -128,9 +138,9 @@ map{
   display: flex;
 }
 
-#emerald img{
-  width: 14%;
-  margin-right: 3%;
+#emeraldimg{
+  height: 18px;
+  margin-right: 5%;
 }
 
 #ruby {
@@ -138,9 +148,9 @@ map{
   display: flex;
 }
 
-#ruby img{
-  width: 14%;
-  margin-right: 3%;
+#rubyimg{
+  height: 18px;
+  margin-right: 5%;
 }
 
 #sapphire {
@@ -148,9 +158,9 @@ map{
   display: flex;
 }
 
-#sapphire img{
-  width: 14%;
-  margin-right: 3%;
+#sapphireimg{
+  height: 18px;
+  margin-right: 5%;
 }
 
 #lapis {
@@ -158,7 +168,7 @@ map{
   display: flex;
 }
 
-#lapis img{
-  width: 14%;
-  margin-right: 3%;
+#lapisimg{
+  height: 18px;
+  margin-right: 5%;
 }
