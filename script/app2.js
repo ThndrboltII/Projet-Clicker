@@ -1,22 +1,5 @@
 $(document).ready(function() {
-var rock=100;
-var coal=5;
-var lapis=1;
-var gold=3;
-var ruby=3;
-var sapphire=2;
-var emerald=1;
-var diamond=1;
-var palladium=1;
-var uranium=10000000000;
-var argent=0;
-var mineur=1;
-var bombe=0;
-var bateau=0;
-var scaphandre=0;
-var combi=0;
-
-
+	$("#argent").text("Argent: " + argent + "$");
 //abonnements
 	$("#inventaire").on("click",item);
   $("#shop").on("click",magasin);
@@ -88,27 +71,46 @@ var combi=0;
 
 				//Convertir les ressources en argent
 				function conversion(){
-					argent=argent+rock+(5*coal)+(10*lapis)+(30*gold)+(100*ruby)+(100*sapphire)+(100*emerald)+(500*diamond)+(700*palladium)+(1000*uranium);
-					rock=0;
-					coal=0;
-					lapis=0;
-					gold=0;
-					ruby=0;
-					sapphire=0;
-					emerald=0;
-					diamond=0;
-					palladium=0;
-					uranium=0;
+					argent=argent+mineral[0].counter+(5*mineral[1].counter)+(10*mineral[9].counter)+(30*mineral[2].counter)+(100*mineral[7].counter)+(100*mineral[8].counter)+(100*mineral[6].counter)+(500*mineral[3].counter)+(700*mineral[4].counter)+(1000*mineral[5].counter);
+					mineral[0].counter=0; //rock
+					$("#rock").html('<img src="../images/minerals/rock.png" id="rockimg"/>Rock: ' + mineral[0].counter);
+					mineral[1].counter=0; //coal
+					$("#coal").html('<img src="../images/minerals/coal.png" id="coalimg"/>Coal: ' + mineral[1].counter);
+					mineral[9].counter=0; //lapis
+					$("#lapis").html('<img src="../images/minerals/lapis.png" id="lapisimg"/>Lapis-lazuli: ' + mineral[9].counter);
+					mineral[2].counter=0; //gold
+					$("#gold").html('<img src="../images/minerals/gold.png" id="goldimg"/>Gold: ' + mineral[2].counter);
+					mineral[7].counter=0; //ruby
+					$("#ruby").html('<img src="../images/minerals/ruby.png" id="rubyimg"/>Ruby: ' + mineral[7].counter);
+					mineral[8].counter=0; //sapphire
+					$("#sapphire").html('<img src="../images/minerals/sapphire.png" id="sapphireimg"/>Sapphire: ' + mineral[8].counter);
+					mineral[6].counter=0; //emerald
+					$("#emerald").html('<img src="../images/minerals/emerald.png" id="emeraldimg"/>Emerald: ' + mineral[6].counter);
+					mineral[3].counter=0; //diamond
+					$("#diamond").html('<img src="../images/minerals/diamond.png" id="diamondimg"/>Diamond: ' + mineral[3].counter);
+					mineral[4].counter=0; //palladium
+					$("#palladium").html('<img src="../images/minerals/palladium.png" id="palladiumimg"/>Palladium: ' + mineral[4].counter);
+					mineral[5].counter=0; //uranium
+					$("#uranium").html('<img src="../images/minerals/uranium.png" id="uraniumimg"/>Uranium: ' + mineral[5].counter);
+					$("#argent").text("Argent: " + argent + "$");
 				}
 
 				//Engager un nouveau mineur
 				function engager(){
-					if (argent>=2500) {
-						argent=argent-2500;
-						mineur=mineur+1;
-						$("#nombrecrue").text(mineur);
-					}
-					else {
+					if (argent>=mineurval) {
+						if (mineur<11){
+							argent=argent-mineurval;
+							$("#argent").text("Argent: " + argent + "$");
+							mineur=mineur+1;
+							mineurval=Math.floor(mineurval*1.8);
+							$("#achatemploye").attr("value",mineurval+"$");
+							$("#nombrecrue").text(mineur);
+							if(mineur==10){
+								$("#achatemploye").attr("value","MAX");
+							}
+						}else{
+							alert("Vous avez atteint le maximum de mineurs.");
+						}
 					}
 				}
 
@@ -117,6 +119,7 @@ var combi=0;
 					if (bombe==0){
 						if (argent>=2000){
 						argent=argent-2000;
+						$("#argent").text("Argent: " + argent + "$");
 						bombe=bombe+1;
 					}
 						else {}
@@ -131,6 +134,7 @@ var combi=0;
 					if (bateau==0){
 						if (argent>=5000){
 						argent=argent-5000;
+						$("#argent").text("Argent: " + argent + "$");
 						bateau=bateau+1;
 					}
 						else {}
@@ -145,8 +149,9 @@ var combi=0;
 					if (scaphandre==0){
 						if (argent>=20000){
 						argent=argent-20000;
+						$("#argent").text("Argent: " + argent + "$");
 						scaphandre=scaphandre+1;
-					}
+						}
 						else {}
 					}
 					else {
@@ -159,6 +164,7 @@ var combi=0;
 					if (combi==0){
 						if (argent>=200000){
 						argent=argent-200000;
+						$("#argent").text("Argent: " + argent + "$");
 						combi=combi+1;
 					}
 						else {}
@@ -172,6 +178,8 @@ var combi=0;
 				function fin() {
 					if (argent>=20000000){
 						window.alert("Vous avez gagné");
+						argent=argent-20000000;
+						$("#argent").text("Argent: " + argent + "$");
 					}
 					else {}
 				}
