@@ -177,9 +177,9 @@ $(document).ready(function() {
 				//Acheter l'objet permettant de terminer le jeu
 				function fin() {
 					if (argent>=20000000){
-						window.alert("Vous avez gagné");
 						argent=argent-20000000;
 						$("#argent").text("Argent: " + argent + "$");
+						window.location="../html/final.html";
 					}
 					else {}
 				}
