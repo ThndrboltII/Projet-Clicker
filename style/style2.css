@@ -7,7 +7,6 @@
   position : absolute;
   top : 10%;
   left : 95%;
-  cursor: pointer;
 }
 
 #inventaire img {
@@ -39,7 +38,6 @@
   position : absolute;
   top : 30%;
   left : 95%;
-  cursor: pointer;
   visibility: hidden;
 }
 
@@ -69,7 +67,7 @@
   width :82%;
   top: 8%;
   left: 12%;
-  background-color: red;
+  background-color: #A52A2A;
   visibility: hidden;
 }
 

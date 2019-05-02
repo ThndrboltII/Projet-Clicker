@@ -98,7 +98,7 @@ $(document).ready(function() {
 				//Engager un nouveau mineur
 				function engager(){
 					if (argent>=mineurval) {
-						if (mineur<11){
+						if (mineur<10){
 							argent=argent-mineurval;
 							$("#argent").text("Argent: " + argent + "$");
 							mineur=mineur+1;

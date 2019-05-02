@@ -8,12 +8,13 @@
 		<!-- Donne le nom de l'auteur-->
 			<meta name="auteur" content="BUGTHESDA" />
 		<!-- Donne la page de style-->
+			<link rel="stylesheet" href="../style/cursor_animation.css" />
 			<link rel="stylesheet" href="../style/style1.css" />
 			<link rel="stylesheet" href="../style/style2.css" />
 		<!--Donne le document javascript-->
     	<script type="text/javascript" src="../script/jquery-3.3.1.js" ></script>
 			<script type="text/javascript" src="../script/jquery.rwdImageMaps.js" ></script>
-			<script type="text/javascript" src="../script/jquery.awesome-cursor.js" ></script>
+			<script type="text/javascript" src="../script/data.js" ></script>
 			<script type="text/javascript" src="../script/app1.js" ></script>
 			<script type="text/javascript" src="../script/app2.js" ></script>
 			<script type="text/javascript" src="../script/cursor.js" ></script>
@@ -22,7 +23,6 @@
 	<body>
 		<!-- Début Flavien -->
 		<div id="workSpace">
-
 			<p id="left_arrow" class="arrows"><</p>
 			<p id="right_arrow" class="arrows">></p>
 
@@ -94,26 +94,8 @@
 			</map>
 		</div>
 		<audio src="../other/what_true_self.mp3" loop="true"></audio>
-		<!-- Fin Flavien -->
 
-		<script type="text/javascript" >
-			var mineral = [{item:"ROCK", value:"1", counter:"0"},
-			  {item:"COAL", value:"5", counter:"0"},
-			  {item:"GOLD", value:"30", counter:"0"},
-			  {item:"DIAMOND", value:"500", counter:"0"},
-			  {item:"PALLADIUM", value:"700", counter:"0"},
-			  {item:"URANIUM", value:"1000", counter:"0"},
-			  {item:"EMERALD", value:"100", counter:"0"},
-			  {item:"RUBY", value:"100", counter:"0"},
-			  {item:"SAPPHIRE", value:"100", counter:"0"},
-			  {item:"LAPIS-LAZULI", value:"10", counter:"0"}];
-			var bombe = 0;
-			var bateau=0;
-			var scaphandre=0;
-			var combi=0;
-			var argent=0;
-			var mineur=0;
-			var mineurval=2500;
-		</script>
+		<div class="cursor"></div>
+		<!-- Fin Flavien -->
 	</body>
 </html>

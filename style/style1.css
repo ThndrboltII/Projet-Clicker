@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   overflow: hidden;
+  cursor: none;
   font-family: Germania One, sans-serif;
     -ms-user-select: none;
     -moz-user-select: none;
