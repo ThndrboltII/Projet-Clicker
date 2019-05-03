@@ -22,7 +22,6 @@
   position : absolute;
   top : 20%;
   left : 95%;
-  cursor : pointer;
 }
 
 #shop img {
@@ -55,7 +54,7 @@
   width : 87%;
   top: 8%;
   left: 12%;
-  background: linear-gradient(purple,blue,skyblue,cyan,black);
+  background-color: #B38B6D;
   visibility: hidden;
 }
 
@@ -67,11 +66,7 @@
   width :87%;
   top: 8%;
   left: 12%;
-<<<<<<< HEAD
-  background-color: #A52A2A;
-=======
   background: linear-gradient(red,orange,yellow,white);
->>>>>>> 1c8c1c3b27b43032c396fae6ff7dfd485ae9669f
   visibility: hidden;
 }
 
