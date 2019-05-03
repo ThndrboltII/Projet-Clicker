@@ -54,7 +54,7 @@
   width : 87%;
   top: 8%;
   left: 12%;
-  background-color: #B38B6D;
+  background: linear-gradient(white,yellow,orange,red);
   visibility: hidden;
 }
 
