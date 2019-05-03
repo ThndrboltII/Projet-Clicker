@@ -92,7 +92,7 @@ $(document).ready(function() {
 					$("#palladium").html('<img src="../images/minerals/palladium.png" id="palladiumimg"/>Palladium: ' + mineral[4].counter);
 					mineral[5].counter=0; //uranium
 					$("#uranium").html('<img src="../images/minerals/uranium.png" id="uraniumimg"/>Uranium: ' + mineral[5].counter);
-					$("#argent").text("Argent: " + argent + "$");
+					$("#argent").text("Argent: " + parseInt(argent) + "$");
 				}
 
 				//Engager un nouveau mineur

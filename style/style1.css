@@ -36,7 +36,6 @@
   font-size: 15vh;
   height: auto;
   position: absolute;
-  cursor: pointer;
   transition: all 0.5s ease;
   color: rgba(0,0,0,0);
 }

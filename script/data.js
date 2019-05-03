@@ -12,6 +12,6 @@ var bombe = 0;
 var bateau=0;
 var scaphandre=0;
 var combi=0;
-var argent=0;
+var argent=100000000;
 var mineur=0;
 var mineurval=2500;

@@ -18,4 +18,8 @@ $(document).ready(function(){
       cursor.classList.remove("expand");
     }, 500);
   });
+
+  $('area').on('mouseover', () => {
+    $('.cursor').css('border-color', 'green');
+  });
 });
