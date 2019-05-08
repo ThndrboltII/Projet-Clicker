@@ -73,26 +73,26 @@ $(document).ready(function() {
 				function conversion(){
 					argent=argent+mineral[0].counter+(5*mineral[1].counter)+(10*mineral[9].counter)+(30*mineral[2].counter)+(100*mineral[7].counter)+(100*mineral[8].counter)+(100*mineral[6].counter)+(500*mineral[3].counter)+(700*mineral[4].counter)+(1000*mineral[5].counter);
 					mineral[0].counter=0; //rock
-					$("#rock").html('<img src="../images/minerals/rock.png" id="rockimg"/>Rock: ' + mineral[0].counter);
+					$("#rock").html('<img src="../images/minerals/rock.png" class="mineralimg"/>Rock: ' + mineral[0].counter);
 					mineral[1].counter=0; //coal
-					$("#coal").html('<img src="../images/minerals/coal.png" id="coalimg"/>Coal: ' + mineral[1].counter);
+					$("#coal").html('<img src="../images/minerals/coal.png" class="mineralimg"/>Coal: ' + mineral[1].counter);
 					mineral[9].counter=0; //lapis
-					$("#lapis").html('<img src="../images/minerals/lapis.png" id="lapisimg"/>Lapis-lazuli: ' + mineral[9].counter);
+					$("#lapis").html('<img src="../images/minerals/lapis.png" class="mineralimg"/>Lapis-lazuli: ' + mineral[9].counter);
 					mineral[2].counter=0; //gold
-					$("#gold").html('<img src="../images/minerals/gold.png" id="goldimg"/>Gold: ' + mineral[2].counter);
+					$("#gold").html('<img src="../images/minerals/gold.png" class="mineralimg"/>Gold: ' + mineral[2].counter);
 					mineral[7].counter=0; //ruby
-					$("#ruby").html('<img src="../images/minerals/ruby.png" id="rubyimg"/>Ruby: ' + mineral[7].counter);
+					$("#ruby").html('<img src="../images/minerals/ruby.png" class="mineralimg"/>Ruby: ' + mineral[7].counter);
 					mineral[8].counter=0; //sapphire
-					$("#sapphire").html('<img src="../images/minerals/sapphire.png" id="sapphireimg"/>Sapphire: ' + mineral[8].counter);
+					$("#sapphire").html('<img src="../images/minerals/sapphire.png" class="mineralimg"/>Sapphire: ' + mineral[8].counter);
 					mineral[6].counter=0; //emerald
-					$("#emerald").html('<img src="../images/minerals/emerald.png" id="emeraldimg"/>Emerald: ' + mineral[6].counter);
+					$("#emerald").html('<img src="../images/minerals/emerald.png" class="mineralimg"/>Emerald: ' + mineral[6].counter);
 					mineral[3].counter=0; //diamond
-					$("#diamond").html('<img src="../images/minerals/diamond.png" id="diamondimg"/>Diamond: ' + mineral[3].counter);
+					$("#diamond").html('<img src="../images/minerals/diamond.png" class="mineralimg"/>Diamond: ' + mineral[3].counter);
 					mineral[4].counter=0; //palladium
-					$("#palladium").html('<img src="../images/minerals/palladium.png" id="palladiumimg"/>Palladium: ' + mineral[4].counter);
+					$("#palladium").html('<img src="../images/minerals/palladium.png" class="mineralimg"/>Palladium: ' + mineral[4].counter);
 					mineral[5].counter=0; //uranium
-					$("#uranium").html('<img src="../images/minerals/uranium.png" id="uraniumimg"/>Uranium: ' + mineral[5].counter);
-					$("#argent").text("Argent: " + parseInt(argent) + "$");
+					$("#uranium").html('<img src="../images/minerals/uranium.png" class="mineralimg"/>Uranium: ' + mineral[5].counter);
+					$("#argent").text("Argent: " + argent + "$");
 				}
 
 				//Engager un nouveau mineur

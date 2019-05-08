@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Germania+One');
+*{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  cursor: none;
+  font-family: Germania One, sans-serif;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none; user-select: none;
+}
+
+html{
+  background-color: #b2bec3;
+  cursor: none;
+}
+
+header{
+  font-size: 2em;
+  text-align: center;
+  text-decoration: underline;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  margin: 1%;
+}
+
+#start{
+  font-size: 4em;
+}
+
+a{text-decoration: none}
+
+.miseenpage{
+  font-size:4em;
+}
+
+#btn-holder{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+#btn{
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+  color: white;
+  background-color: #0D47A1;
+  height: 60px;
+  line-height: 60px;
+  width: 300px;
+  z-index: 2;
+  text-align: center;
+  transition: all .5s ease;
+  overflow: hidden;
+  border: 1px solid #0D47A1;
+}
+
+#btn:before{
+  position:absolute;
+  content:"";
+  top:50%;
+  left:50%;
+  height: 0%;
+  width: 100%;
+  z-index: -1;
+  background-color: #64B5F6;
+  transform: translateX(-50%) translateY(-50%) rotate(45deg);
+  opacity: 0;
+  transition: all .4s ease;
+}
+
+#btn:hover:before{
+  opacity: 1;
+  height: 250%;
+}
+
+#btn:hover{
+  border-color: #64B5F6;
+}

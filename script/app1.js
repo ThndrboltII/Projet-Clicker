@@ -15,37 +15,37 @@ $(document).ready(function(){
           // Set rock counter
           if(alea>=0 && alea<=0.7434){
             mineral[0].counter = parseInt(mineral[0].counter) + 1;
-            $("#rock").html('<img src="../images/minerals/rock.png" id="rockimg"/>Rock: ' + mineral[0].counter);
+            $("#rock").html('<img src="../images/minerals/rock.png" class="mineralimg"/>Rock: ' + mineral[0].counter);
           };
 
           // Set coal counter
           if(alea>=0.7434 && alea<=0.9234){
             mineral[1].counter = parseInt(mineral[1].counter) + 1;
-            $("#coal").html('<img src="../images/minerals/coal.png" id="coalimg"/>Coal: ' + mineral[1].counter);
+            $("#coal").html('<img src="../images/minerals/coal.png" class="mineralimg"/>Coal: ' + mineral[1].counter);
           };
 
           // Set gold counter
           if(alea>=0.9234 && alea<=0.9474){
             mineral[2].counter = parseInt(mineral[2].counter) + 1;
-            $("#gold").html('<img src="../images/minerals/gold.png" id="goldimg"/>Gold: ' + mineral[2].counter);
+            $("#gold").html('<img src="../images/minerals/gold.png" class="mineralimg"/>Gold: ' + mineral[2].counter);
           };
 
           // Set diamond counter
           if(alea>=0.9474 && alea<=0.9494){
             mineral[3].counter = parseInt(mineral[3].counter) + 1;
-            $("#diamond").html('<img src="../images/minerals/diamond.png" id="diamondimg"/>Diamond: ' + mineral[3].counter);
+            $("#diamond").html('<img src="../images/minerals/diamond.png" class="mineralimg"/>Diamond: ' + mineral[3].counter);
           };
 
           // Set palladium counter
           if(alea>=0.9494 && alea<=0.95){
             mineral[4].counter = parseInt(mineral[4].counter) + 1;
-            $("#palladium").html('<img src="../images/minerals/palladium.png" id="palladiumimg"/>Palladium: ' + mineral[4].counter);
+            $("#palladium").html('<img src="../images/minerals/palladium.png" class="mineralimg"/>Palladium: ' + mineral[4].counter);
           };
 
           // Set lapis-lazuli counter
           if(alea>=0.95 && alea<=1){
             mineral[9].counter = parseInt(mineral[9].counter) + 1;
-            $("#lapis").html('<img src="../images/minerals/lapis.png" id="lapisimg"/>Lapis-Lazuli: ' + mineral[9].counter);
+            $("#lapis").html('<img src="../images/minerals/lapis.png" class="mineralimg"/>Lapis-Lazuli: ' + mineral[9].counter);
           };
           break;
 
@@ -53,37 +53,37 @@ $(document).ready(function(){
           // Set rock counter
           if(alea>=0 && alea<=0.4974){
             mineral[0].counter = parseInt(mineral[0].counter) + 1;
-            $("#rock").html('<img src="../images/minerals/rock.png" id="rockimg"/>Rock: ' + mineral[0].counter);
+            $("#rock").html('<img src="../images/minerals/rock.png" class="mineralimg"/>Rock: ' + mineral[0].counter);
           };
 
           // Set coal counter
           if(alea>=0.4974 && alea<=0.8974){
             mineral[1].counter = parseInt(mineral[1].counter) + 1;
-            $("#coal").html('<img src="../images/minerals/coal.png" id="coalimg"/>Coal: ' + mineral[1].counter);
+            $("#coal").html('<img src="../images/minerals/coal.png" class="mineralimg"/>Coal: ' + mineral[1].counter);
           };
 
           // Set gold counter
           if(alea>=0.8974 && alea<=0.9474){
             mineral[2].counter = parseInt(mineral[2].counter) + 1;
-            $("#gold").html('<img src="../images/minerals/gold.png" id="goldimg"/>Gold: ' + mineral[2].counter);
+            $("#gold").html('<img src="../images/minerals/gold.png" class="mineralimg"/>Gold: ' + mineral[2].counter);
           };
 
           // Set diamond counter
           if(alea>=0.9474 && alea<=0.9494){
             mineral[3].counter = parseInt(mineral[3].counter) + 1;
-            $("#diamond").html('<img src="../images/minerals/diamond.png" id="diamondimg"/>Diamond: ' + mineral[3].counter);
+            $("#diamond").html('<img src="../images/minerals/diamond.png" class="mineralimg"/>Diamond: ' + mineral[3].counter);
           };
 
           // Set palladium counter
           if(alea>=0.9494 && alea<=0.95){
             mineral[4].counter = parseInt(mineral[4].counter) + 1;
-            $("#palladium").html('<img src="../images/minerals/palladium.png" id="palladiumimg"/>Palladium: ' + mineral[4].counter);
+            $("#palladium").html('<img src="../images/minerals/palladium.png" class="mineralimg"/>Palladium: ' + mineral[4].counter);
           };
 
           // Set lapis-lazuli counter
           if(alea>=0.95 && alea<=1){
             mineral[9].counter = parseInt(mineral[9].counter) + 1;
-            $("#lapis").html('<img src="../images/minerals/lapis.png" id="lapisimg"/>Lapis-Lazuli: ' + mineral[9].counter);
+            $("#lapis").html('<img src="../images/minerals/lapis.png" class="mineralimg"/>Lapis-Lazuli: ' + mineral[9].counter);
           };
           break;
 
@@ -91,55 +91,55 @@ $(document).ready(function(){
           // Set rock counter
           if(alea>=0 && alea<=0.5374){
             mineral[0].counter = parseInt(mineral[0].counter) + 1;
-            $("#rock").html('<img src="../images/minerals/rock.png" id="rockimg"/>Rock: ' + mineral[0].counter);
+            $("#rock").html('<img src="../images/minerals/rock.png" class="mineralimg"/>Rock: ' + mineral[0].counter);
           };
 
           // Set coal counter
           if(alea>=0.5374 && alea<=0.6674){
             mineral[1].counter = parseInt(mineral[1].counter) + 1;
-            $("#coal").html('<img src="../images/minerals/coal.png" id="coalimg"/>Coal: ' + mineral[1].counter);
+            $("#coal").html('<img src="../images/minerals/coal.png" class="mineralimg"/>Coal: ' + mineral[1].counter);
           };
 
           // Set gold counter
           if(alea>=0.6674 && alea<=0.6774){
             mineral[2].counter = parseInt(mineral[2].counter) + 1;
-            $("#gold").html('<img src="../images/minerals/gold.png" id="goldimg"/>Gold: ' + mineral[2].counter);
+            $("#gold").html('<img src="../images/minerals/gold.png" class="mineralimg"/>Gold: ' + mineral[2].counter);
           };
 
           // Set diamond counter
           if(alea>=0.6774 && alea<=0.6794){
             mineral[3].counter = parseInt(mineral[3].counter) + 1;
-            $("#diamond").html('<img src="../images/minerals/diamond.png" id="diamondimg"/>Diamond: ' + mineral[3].counter);
+            $("#diamond").html('<img src="../images/minerals/diamond.png" class="mineralimg"/>Diamond: ' + mineral[3].counter);
           };
 
           // Set palladium counter
           if(alea>=0.6794 && alea<=0.68){
             mineral[4].counter = parseInt(mineral[4].counter) + 1;
-            $("#palladium").html('<img src="../images/minerals/palladium.png" id="palladiumimg"/>Palladium: ' + mineral[4].counter);
+            $("#palladium").html('<img src="../images/minerals/palladium.png" class="mineralimg"/>Palladium: ' + mineral[4].counter);
           };
 
           // Set emerald counter
           if(alea>=0.68 && alea<=0.76){
             mineral[6].counter = parseInt(mineral[6].counter) + 1;
-            $("#emerald").html('<img src="../images/minerals/emerald.png" id="emeraldimg"/>Emerald: ' + mineral[6].counter);
+            $("#emerald").html('<img src="../images/minerals/emerald.png" class="mineralimg"/>Emerald: ' + mineral[6].counter);
           };
 
           // Set ruby counter
           if(alea>=0.76 && alea<=0.84){
             mineral[7].counter = parseInt(mineral[7].counter) + 1;
-            $("#ruby").html('<img src="../images/minerals/ruby.png" id="rubyimg"/>Ruby: ' + mineral[7].counter);
+            $("#ruby").html('<img src="../images/minerals/ruby.png" class="mineralimg"/>Ruby: ' + mineral[7].counter);
           };
 
           // Set sapphire counter
           if(alea>=0.84 && alea<=0.92){
             mineral[8].counter = parseInt(mineral[8].counter) + 1;
-            $("#sapphire").html('<img src="../images/minerals/sapphire.png" id="sapphireimg"/>Sapphire: ' + mineral[8].counter);
+            $("#sapphire").html('<img src="../images/minerals/sapphire.png" class="mineralimg"/>Sapphire: ' + mineral[8].counter);
           };
 
           // Set lapis-lazuli counter
           if(alea>=0.92 && alea<=1){
             mineral[9].counter = parseInt(mineral[9].counter) + 1;
-            $("#lapis").html('<img src="../images/minerals/lapis.png" id="lapisimg"/>Lapis-Lazuli: ' + mineral[9].counter);
+            $("#lapis").html('<img src="../images/minerals/lapis.png" class="mineralimg"/>Lapis-Lazuli: ' + mineral[9].counter);
           };
           break;
 
@@ -147,55 +147,55 @@ $(document).ready(function(){
           // Set rock counter
           if(alea>=0 && alea<=0.293){
             mineral[0].counter = parseInt(mineral[0].counter) + 1;
-            $("#rock").html('<img src="../images/minerals/rock.png" id="rockimg"/>Rock: ' + mineral[0].counter);
+            $("#rock").html('<img src="../images/minerals/rock.png" class="mineralimg"/>Rock: ' + mineral[0].counter);
           };
 
           // Set coal counter
           if(alea>=0.293 && alea<=0.393){
             mineral[1].counter = parseInt(mineral[1].counter) + 1;
-            $("#coal").html('<img src="../images/minerals/coal.png" id="coalimg"/>Coal: ' + mineral[1].counter);
+            $("#coal").html('<img src="../images/minerals/coal.png" class="mineralimg"/>Coal: ' + mineral[1].counter);
           };
 
           // Set gold counter
           if(alea>=0.393 && alea<=0.427){
             mineral[2].counter = parseInt(mineral[2].counter) + 1;
-            $("#gold").html('<img src="../images/minerals/gold.png" id="goldimg"/>Gold: ' + mineral[2].counter);
+            $("#gold").html('<img src="../images/minerals/gold.png" class="mineralimg"/>Gold: ' + mineral[2].counter);
           };
 
           // Set diamond counter
           if(alea>=0.427 && alea<=0.437){
             mineral[3].counter = parseInt(mineral[3].counter) + 1;
-            $("#diamond").html('<img src="../images/minerals/diamond.png" id="diamondimg"/>Diamond: ' + mineral[3].counter);
+            $("#diamond").html('<img src="../images/minerals/diamond.png" class="mineralimg"/>Diamond: ' + mineral[3].counter);
           };
 
           // Set palladium counter
           if(alea>=0.437 && alea<=0.44){
             mineral[4].counter = parseInt(mineral[4].counter) + 1;
-            $("#palladium").html('<img src="../images/minerals/palladium.png" id="palladiumimg"/>Palladium: ' + mineral[4].counter);
+            $("#palladium").html('<img src="../images/minerals/palladium.png" class="mineralimg"/>Palladium: ' + mineral[4].counter);
           };
 
           // Set emerald counter
           if(alea>=0.44 && alea<=0.56){
             mineral[6].counter = parseInt(mineral[6].counter) + 1;
-            $("#emerald").html('<img src="../images/minerals/emerald.png" id="emeraldimg"/>Emerald: ' + mineral[6].counter);
+            $("#emerald").html('<img src="../images/minerals/emerald.png" class="mineralimg"/>Emerald: ' + mineral[6].counter);
           };
 
           // Set ruby counter
           if(alea>=0.56 && alea<=0.68){
             mineral[7].counter = parseInt(mineral[7].counter) + 1;
-            $("#ruby").html('<img src="../images/minerals/ruby.png" id="rubyimg"/>Ruby: ' + mineral[7].counter);
+            $("#ruby").html('<img src="../images/minerals/ruby.png" class="mineralimg"/>Ruby: ' + mineral[7].counter);
           };
 
           // Set sapphire counter
           if(alea>=0.68 && alea<=0.8){
             mineral[8].counter = parseInt(mineral[8].counter) + 1;
-            $("#sapphire").html('<img src="../images/minerals/sapphire.png" id="sapphireimg"/>Sapphire: ' + mineral[8].counter);
+            $("#sapphire").html('<img src="../images/minerals/sapphire.png" class="mineralimg"/>Sapphire: ' + mineral[8].counter);
           };
 
           // Set lapis-lazuli counter
           if(alea>=0.8 && alea<=1){
             mineral[9].counter = parseInt(mineral[9].counter) + 1;
-            $("#lapis").html('<img src="../images/minerals/lapis.png" id="lapisimg"/>Lapis-Lazuli: ' + mineral[9].counter);
+            $("#lapis").html('<img src="../images/minerals/lapis.png" class="mineralimg"/>Lapis-Lazuli: ' + mineral[9].counter);
           };
           break;
 
@@ -203,19 +203,19 @@ $(document).ready(function(){
           // Set rock counter
           if(alea>=0 && alea<=0.813){
             mineral[0].counter = parseInt(mineral[0].counter) + 1;
-            $("#rock").html('<img src="../images/minerals/rock.png" id="rockimg"/>Rock: ' + mineral[0].counter);
+            $("#rock").html('<img src="../images/minerals/rock.png" class="mineralimg"/>Rock: ' + mineral[0].counter);
           };
 
           // Set gold counter
           if(alea>=0.813 && alea<=0.83){
             mineral[2].counter = parseInt(mineral[2].counter) + 1;
-            $("#gold").html('<img src="../images/minerals/gold.png" id="goldimg"/>Gold: ' + mineral[2].counter);
+            $("#gold").html('<img src="../images/minerals/gold.png" class="mineralimg"/>Gold: ' + mineral[2].counter);
           };
 
           // Set uranium counter
           if(alea>=0.83 && alea<=1){
             mineral[5].counter = parseInt(mineral[5].counter) + 1;
-            $("#uranium").html('<img src="../images/minerals/uranium.png" id="uraniumimg"/>Uranium: ' + mineral[5].counter);
+            $("#uranium").html('<img src="../images/minerals/uranium.png" class="mineralimg"/>Uranium: ' + mineral[5].counter);
           };
           break;
       };

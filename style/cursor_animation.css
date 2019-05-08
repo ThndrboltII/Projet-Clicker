@@ -1,11 +1,21 @@
-.cursor{
+.cursor1{
   width: 10px;
   height: 10px;
   pointer-events: none;
   border: 2px solid white;
   border-radius: 50%;
   position: absolute;
-  /* transition-duration: 200ms; */
+  transition-timing-function: ease-out;
+  z-index: 0;
+}
+
+.cursor2{
+  width: 10px;
+  height: 10px;
+  pointer-events: none;
+  border: 2px solid green;
+  border-radius: 50%;
+  position: absolute;
   transition-timing-function: ease-out;
   z-index: 0;
 }
@@ -19,12 +29,17 @@
   }
   100%{
     transform: scale(1);
-    border-color: white;
   }
 }
 
-.expand {
+.expand1 {
   animation: cursorAnim .5s forwards;
-  border: 1px solid red;
+  border: 1px solid white;
+  z-index: 0;
+}
+
+.expand2 {
+  animation: cursorAnim .5s forwards;
+  border: 1px solid green;
   z-index: 0;
 }
