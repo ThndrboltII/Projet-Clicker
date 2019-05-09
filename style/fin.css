@@ -25,3 +25,13 @@ html{
 	background-repeat:no-repeat;
 	background-size: 100% 100%;
 }
+
+a{
+  position: absolute;
+  color: white;
+  font-size: 3em;
+  text-decoration: none;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
