@@ -1,0 +1,3 @@
+Veuillez ouvrir le menu.html en premier.
+Afin de garantir une expérience de jeu optimal, il est recommandé de mettre la page web en plein écran (f11).
+Si vous désirez jouez la musique proposez, appuyez sur la touche espace. Faire de même pour la mettre en pause.
